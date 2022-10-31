@@ -1,4 +1,80 @@
-p {
-  background-color: #14142b;
-  color: #7b4ae2;
+:root {
+  --background-color: #090e16;
+  --main-font-family: "Raleway", sans-serif;
+  --main-text-color: #ffffff;
+  --secondary-text-color: #ffffff;
+  --greeting-text-color: #7b4ae2;
+  --secondary-background-color: #14142b;
+}
+.hero {
+  background-color: var(--background-color);
+  display: flex;
+ flex-direction: row;
+ 
+}
+.greeting {
+  color: var(--greeting-text-color);
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 20px;
+  background-color: var(--secondary-background-color);
+  border-radius: 16px;
+  opacity: 50%;
+  padding: 4px, 10px, 4px, 10px;
+  display: flex;
+  width: 157px;
+  height: 31px;
+  left: 140.01px;
+  top: 293px;
+  margin-top: 80px;
+  margin-left: 50px;
+
+
+  background: rgba(123, 74, 226, 0.1);
+}
+.container-fluid {
+  background-color: #0f1120;
+  border-radius: 14px;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 70%;
+}
+.name {
+  border-radius: 16px;
+  
+  width: 411px;
+  height: 189px;
+  left: 140px;
+  top: 293px;
+  color: var(--main-text-color);
+  font-family: var(--main-font-family);
+  color: var(--main-text-color);
+  font-weight: 800;
+  font-size: 52px;
+  margin-left: 50px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  opacity: 50%;
+  padding-bottom: 100px;
+}
+img {
+ 
+  border-radius: 50%;
+  width: 300px;
+
+}
+#profession-name {
+    color: var(--main-text-color);
+    opacity: 50%;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+
 }
