@@ -9,8 +9,8 @@
 .hero {
   background-color: var(--background-color);
   display: flex;
- flex-direction: row;
- 
+  flex-direction: row;
+  padding-bottom: 50px;
 }
 .greeting {
   color: var(--greeting-text-color);
@@ -29,7 +29,6 @@
   margin-top: 80px;
   margin-left: 50px;
 
-
   background: rgba(123, 74, 226, 0.1);
 }
 .container-fluid {
@@ -42,8 +41,7 @@
 }
 .name {
   border-radius: 16px;
-  
-  width: 411px;
+width: 411px;
   height: 189px;
   left: 140px;
   top: 293px;
@@ -58,23 +56,76 @@
 .social-media {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:flex-start;
+  padding-left: 50px;
   color: #ffffff;
   opacity: 50%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  
+}
+i {
+    padding: 10px;
 }
 img {
- 
+   display: flex;
+   flex-direction: row;
+   justify-content:right;
+   margin-top: 80px;
   border-radius: 50%;
   width: 300px;
-
+  height: 300px;
+  
 }
 #profession-name {
-    color: var(--main-text-color);
-    opacity: 50%;
-    font-family: var(--main-font-family);
-    font-weight: 400;
-    font-size: 20px;
-    margin-left: 50px;
+  color: var(--main-text-color);
+  opacity: 50%;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 50px;
+}
 
+.img-fluid.border.rounded.shadow-sm {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 5px;
+  box-shadow: 10px 10px 5px lightgrey;
+}
+
+#appButton:hover {
+  justify-content: center;
+  color: var(--greeting-text-color);
+  opacity: 60%;
+  background-color: var(--secondary-background-color);
+  transition: 400ms;
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  border-color: var(--greeting-text-color);
+  box-shadow: 10px 10px 5px lightgrey;
+}
+#appButton {
+    display: flex;
+   
+  justify-content:space-around;
+  color: var(--secondary-background-color);
+  opacity: 60%;
+  background-color: var(--greeting-text-color);
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  border-color: var(--secondary-background-color);
+  text-align: center;
+  box-shadow: 10px 10px 5px lightgrey;
+}
+.page {
+  background-color: var(--background-color);
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
